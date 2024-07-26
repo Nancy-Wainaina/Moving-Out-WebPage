@@ -27,14 +27,15 @@
 
 
 #writings{
-    display: flex;
-   justify-content: space-evenly;
-    zoom: 800%;
+   display: flex;
+   margin-left: 30%;
+   gap: 5%;
 }
 .font{
-    font-family: monospace;
-    justify-content: space-between;
-    gap: 1000%;
+  font-size: 700%;
+  font-family: monospace;
+  font-weight: bold;
+
 }
 
 #style{
@@ -255,4 +256,349 @@ button{
     width: 30%;
     margin-left: 60%;
     border-radius: 1px;
+    font-weight: bolder;
+}
+@media screen and (width:480px){
+    
+
+#page{
+    background-color: gray;
+}
+
+
+#navbar{
+    background-color: burlywood;
+    height: 220px;
+
+}
+#intro{
+    margin-left: 5%;
+    font-family: monospace;
+}
+#address{
+    margin-left: 5%;
+    font-family: monospace;
+}
+#sticker{
+    zoom:20%;
+    margin-left: 10%;
+    margin-bottom: 80%;
+}
+
+
+#writings{
+    display: flex;
+   justify-content: space-evenly;
+    zoom: 800%;
+}
+.font{
+    font-family: monospace;
+    justify-content: space-between;
+    gap: 1000%;
+}
+
+#style{
+    width: 100%;
+}
+#word1{
+    color: orangered;
+    font-family: monospace;
+    margin-left: 15%;
+    font-size: x-large;
+    text-decoration: underline;
+}
+#section3{
+    background-color: aliceblue;
+}
+#word2{
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15%;
+}
+
+#forthpic{
+    width: 250px;
+    height: 200px;
+}
+#fifthpic{
+    margin-left: 10%;
+    border-radius: 100px;
+    width: 250px;
+    height: 200px;
+
+}
+#logo{
+    width: 100%;
+}
+#head{
+    margin-left: 40%;
+    color: orangered;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+}
+#head2{
+    margin-left: 35%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 350%;
+    font-weight: bold;
+}
+#pack{
+    
+    width:100px;
+    height: 100px;
+}
+#front{
+    margin-left: 7%;
+    font-size: x-large;
+    font-weight: bold;
+}
+#content{
+    margin-left: 7%;
+    color: darkslategrey;
+}
+#read{
+    margin-left: 7%;
+    color: orangered;
+    font-weight: bold;
+}
+#store{
+    zoom: 15%;
+    
+    width:400px;
+    height: 400px;
+    
+}
+#keep{
+    font-weight: bold;
+    margin-left: 7%;
+    font-size: x-large;
+
+}
+#car{
+    zoom: 15%;
+    
+    width:400px;
+    height: 400px;
+
+}
+#move{
+    margin-left: 7%;
+    font-size: x-large;
+    font-weight: bold;
+}
+#insure{
+    zoom: 15%;
+    
+    width: 400px;
+    height: 400px;
+}
+#cover{
+    margin-left: 7%;
+    font-size: x-large;
+    font-weight: bold;
+}
+#services{
+flex-direction: column;
+justify-content: space-between;
+flex-direction: row;
+
+
+
+}
+#lead{
+    display: table-row;
+    margin-left: 7%;
+    
+}
+#vplay{
+    margin-left: 60%;
+}
+#quiz{
+    margin-left: 30%;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#language{
+    margin-left: 20%;
+    font-size: x-large;
+}
+#points{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 25%;
+}
+#lastp{
+    margin-left: 21%;
+    font-size: x-large;
+    color: grey;
+}
+#house{
+    border-radius: 30px;
+    zoom: 80%;
+}
+#booking{
+    color: orangered;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#family{
+    margin-left: 5%;
+    zoom:130%;
+    border-radius: 30px;
+}
+#endp{
+    width: 100%;
+}
+#testimonials{
+    color: orangered;
+    font-size: x-large;
+    margin-left: 40%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#say{
+    font-size: 350%;
+    font-weight: bold;
+    margin-left: 36%;
+}
+#mine{
+    zoom: 10%;
+    border: solid transparent;
+    border-radius: 50%;
+}
+#customer{
+    font-size: x-large;
+    color: orangered;
+}
+#letter{
+    margin-left: 40%;
+    font-size: large;
+    color: orangered;
+    text-decoration: underline;
+}
+#join{
+    margin-left: 35%;
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+}
+#email{
+    margin-left: 25%;
+    color: grey;
+    font-size: x-large;
+}
+#enter{
+    display: flex;
+}
+button{
+    padding: 10px;
+    background-color: orangered;
+    color: aliceblue;
+    margin-left: 30%;
+    width: 160px;
+    border-radius: 16px;
+}
+#blog{
+    margin-left: 40%;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#news{
+    font-size: 350%;
+    margin-left: 35%;
+    font-weight: bold;
+}
+#three{
+    margin-left: 15%;
+}
+#back{
+    background-color: orange;
+    padding: 40px;
+}
+#help{
+    font-weight: bolder;
+    margin-left: 35px;
+    font-size: 50px;
+    color: aliceblue;
+}
+#lastly{
+    background-color: black;
+    padding: 30px;
+    width: 30%;
+    margin-left: 60%;
+    border-radius: 1px;
+
+}
+#my body{
+    width: 100%T;
+}
+
+#image1{
+
+
+} 
+#image2{
+
+} 
+#image3{
+
+} 
+#image4{
+    width: 250px;
+    height: 200px;
+
+}
+#image5{
+
+}
+#image6{
+
+}
+#image7{
+
+}
+#image8{
+
+}
+#image9{
+
+}
+#image10{
+
+}
+#image11{
+
+} 
+#image12{
+
+} 
+#image13{
+
+} 
+#image14{
+
+}
+#image15{
+
+}
+#image16{
+
+}
+#image17{
+
+}
+#image18{
+
+}
+#image19{
+
+}
+#image20{
+    
+}
 }
